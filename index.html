@@ -8,45 +8,96 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Last try</title>
 </head>
-<body id="english">
+<body>
   <div id="language">
-    <div id="english"></div>
-    <div id="romanian"></div>
+    <div id="english" onclick="englishVersion()">
+      <div>
+        <img src="icon/uk.png" alt="UK flag">
+        <h1>English Version</h1>
+        <p>You could understand better since i can understand it too</p>
+      </div>
+    </div>
+    <div id="romanian" onclick="romanianVersion()">
+      <div>
+        <img src="icon/ro.png" alt="RO flag">
+        <h1>Versiunea Romaneasca</h1>
+        <p>Nu prea inteleg limba ta, dar promit sa incerc.</p>
+      </div>
+    </div>
   </div>
-  <header>
-    <h1>I'm sorry, Alice.</h1>
-  </header>
-  <main>
-    <section id="te-iubesc">
-      <h2>I couldn't say that i love you</h2>
-      <p>That's right, i don't love you, but i was falling in love to you, here in brazil, we use to say that like a passion, a strong love but not durable, since it had a few days.</p>
-      <p>I've taken this weekend to think about us, and i realized that i want you with me, not meant to be a couple, but our friendship.</p>
-      <p>This song doesn't get out of my mind, i was thinking about you day and night.</p>
-      <audio id="autoPlaySong" src="music/te-iubesc.mp3" controls>
-        
-    </section>
-    <section id="sorry"></section>
-    <section id="hole"></section>
-    <section id="heart"></section>
-  </main>
-  <footer></footer>
+  <div id="englishVer">
+    <header>
+      <h1>I'm sorry, Alice.</h1>
+    </header>
+    <main>
+      <section id="te-iubesc">
+        <h2>I couldn't say that i love you</h2>
+        <p>That's right, I don't love you, but I was falling in love with you, here in Brazil, we use to say that it's like a passion, a strong love but not lasting, because it only lasts a few days.</p>
+        <p>I've taken this weekend to think about us, and i realized that i want you with me, not meant to be a couple, but our friendship.</p>
+        <p>This song doesn't get out of my mind, i was thinking about you day and night.</p>
+        <audio id="autoPlaySong" src="music/te-iubesc.mp3" controls></audio>
+    
+      </section>
+      <section id="sorry"></section>
+      <section id="formosa">
+        <h2>Sometimes i hear you inside my head</h2>
+        <p>I don't even like this song, that's not my kind of music, but you're in my head all the time singing it.</p>
+        <p>I really like the way you live your life, and i've got contagious with it.</p>
+        <p>i really don't want to change anything between us, but as you told me about your beloved, i'd rather be friends than nothing.</p>
+        <audio src="music/formosa.mp3" controls></audio>
+        <h3>There is some lyrics to you</h3>
+        <p>Formosa, leave the house ready to dance <br>
+        ready to dance <br>
+        Yummy, the way I eat in your hand <span>(yummy = gostosa, "it's like hot, but you need to remember that here in brazil we use to say that we eat instead of fuck, a looooot of times)</span><br>
+        eat in your hand</p>
+        <p>I lost morals with the friends of the mouth <span>(mouth= he meant to drug dealers)</span> <br>
+        I stayed with her and dropped the shift <span>(shift= again about drug dealing, but now it means like he used to work with them)</span><br>
+        I left this crazy life <br>
+        But I won't let go of her tail <span>(tail = he meant to her butt)</span></p>
+        <p>I lost morals with the friends of the mouth <br>
+        I stayed with her and dropped the shift <br>
+        I left this crazy life <br>
+        But I won't let go of her tail</p>
+        <p>Go show me your tits<br>
+        Raise that tail <br>
+        she is already crazy <br>
+        Belt wants to sit on me <span>(belt= he meant to a black belt, like a professional on it)</span><br>
+        I will never say no <br>
+        I will take off your clothes</p>
+        <p>Go show me your tits <br>
+        Raise that tail <br>
+        she is already crazy <br>
+        Banner wants to sit on me <br>
+        I will never say no <br>
+        I will take off your clothes</p>
+
+      </section>
+      <section id="hole"></section>
+      <section id="heart"></section>
+    </main>
+    <footer></footer>
+  </div>
+  
+  <!-- Romanian Version -->
+  
+  <div id="romanianVer">
+    <header>
+      <h1>I'm sorry, Alice.</h1>
+    </header>
+    <main>
+      <section id="te-iubesc">
+        <h2>I couldn't say that i love you</h2>
+        <p>That's right, i don't love you, but i was falling in love to you, here in brazil, we use to say that like a passion, a strong love but not durable, since it had a few days.</p>
+        <p>I've taken this weekend to think about us, and i realized that i want you with me, not meant to be a couple, but our friendship.</p>
+        <p>This song doesn't get out of my mind, i was thinking about you day and night.</p>
+        <audio id="autoPlaySong" src="music/te-iubesc.mp3" controls>
+      </section>
+      <section id="sorry"></section>
+      <section id="hole"></section>
+      <section id="heart"></section>
+    </main>
+    <footer></footer>
+  </div>
 </body>
-<body id="romanian">
-  <header>
-    <h1>I'm sorry, Alice.</h1>
-  </header>
-  <main>
-    <section id="te-iubesc">
-      <h2>I couldn't say that i love you</h2>
-      <p>That's right, i don't love you, but i was falling in love to you, here in brazil, we use to say that like a passion, a strong love but not durable, since it had a few days.</p>
-      <p>I've taken this weekend to think about us, and i realized that i want you with me, not meant to be a couple, but our friendship.</p>
-      <p>This song doesn't get out of my mind, i was thinking about you day and night.</p>
-      <audio id="autoPlaySong" src="music/te-iubesc.mp3" controls>
-    </section>
-    <section id="sorry"></section>
-    <section id="hole"></section>
-    <section id="heart"></section>
-  </main>
-  <footer></footer>
-</body>
+<script src="script/script.js"></script>
 </html>
