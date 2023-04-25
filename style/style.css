@@ -1,2 +1,18 @@
 @charset "UTF-8";
 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+:root{
+    --cor0: #010061;
+    --cor1: #C20001;
+    --cor2: #F2F2F2;
+    --cor3: #002979;
+    --cor4: #EFC615;
+    --cor5: #C41024;
+    --font1: 
+}
