@@ -205,8 +205,8 @@ strong{
     font-size: 1.15em;
 }
 
-div#englishVer > footer{
-    background-color: var(--cor0);
+div#romanianVer > footer{
+    background-color: var(--cor5);
     color: var(--white);
 }
 
