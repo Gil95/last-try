@@ -155,3 +155,30 @@ section#hole{
     background-position: center;
     height: 300px;
 }
+
+figure.pic-sample{
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figure.pic-sample > img{
+    width: 60vw;
+}
+
+section#heart{
+    background-image: url(../images/heart.jpg);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+strong{
+    font-weight: 500;
+    font-size: 1.15em;
+}
