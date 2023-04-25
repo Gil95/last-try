@@ -168,6 +168,11 @@ div#englishVer > main > section > p > span{
     text-decoration: underline;
 }
 
+div#romanianVer > main > section > p > span {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
 section#hole{
     background-image: url(../images/hole.jpg);
     background-color: var(--white);
