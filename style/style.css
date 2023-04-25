@@ -100,6 +100,7 @@ div#romanianVer > header{
 header > h1{
     align-self: center;
     font-size: 3em;
+    text-align: center;
 }
 
 div#englishVer > main > section{
