@@ -24,7 +24,7 @@ body::-webkit-scrollbar{
 }
 
 #englishVer{
-    display: block;
+    display: none;
 }
 
 #romanianVer{
@@ -32,7 +32,7 @@ body::-webkit-scrollbar{
 }
 
 div#language{
-    display: none;
+    display: flex;
     float: left;
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
     width: 100vw;
@@ -89,7 +89,15 @@ div#romanian > div > img{
     justify-content: center;
 }
 
-#englishVer > header > h1{
+#romanianVer > header{
+    background-color: var(--cor3);
+    color: var(--white);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+header > h1{
     align-self: center;
     font-size: 3em;
 }
@@ -104,21 +112,35 @@ div#englishVer > main > section{
     margin-top: 10px;
     border-radius: 5px 10px;
 }
+div#romanianVer{
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+}
 
-div#englishVer > main > section > h2{
+div#romanianVer > main > section{
+    background-color: var(--white);
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    box-shadow: inset 0px 0px 10px #000e;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px 10px;
+}
+
+main > section > h2{
     font-size: 2em;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-div#englishVer > main > section > h3{
+main > section > h3{
     font-weight: 300;
     font-size: 1.5em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-div#englishVer > main > section > p{
+main > section > p{
     font-size: 1.15em;
     font-weight: 300;
     margin-bottom: 10px;
@@ -181,4 +203,31 @@ section#heart{
 strong{
     font-weight: 500;
     font-size: 1.15em;
+}
+
+div#englishVer > footer{
+    background-color: var(--cor0);
+    color: var(--white);
+}
+
+footer > h2{
+    padding-top: 20px;
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+footer > p{
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer > a > img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
 }
