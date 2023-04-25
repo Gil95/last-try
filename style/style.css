@@ -81,7 +81,7 @@ div#romanian > div > img{
     background-color: var(--cor1);
 }
 
-#englishVer > header{
+div#englishVer > header{
     background-color: var(--cor0);
     color: var(--cor2);
     height: 200px;
@@ -89,7 +89,7 @@ div#romanian > div > img{
     justify-content: center;
 }
 
-#romanianVer > header{
+div#romanianVer > header{
     background-color: var(--cor3);
     color: var(--white);
     height: 200px;
