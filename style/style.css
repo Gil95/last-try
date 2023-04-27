@@ -23,14 +23,6 @@ body::-webkit-scrollbar{
     --font1: 'Nunito', arial, sans-serif;
 }
 
-#englishVer{
-    display: none;
-}
-
-#romanianVer{
-    display: none;
-}
-
 div#language{
     display: flex;
     float: left;
@@ -77,8 +69,10 @@ div#romanian > div > img{
     display: block;
     margin: auto;
 }
+
 #englishVer{
     background-color: var(--cor1);
+    min-height: 100vh;
 }
 
 div#englishVer > header{
@@ -87,6 +81,7 @@ div#englishVer > header{
     height: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 div#romanianVer > header{
@@ -95,12 +90,25 @@ div#romanianVer > header{
     height: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 header > h1{
     align-self: center;
     font-size: 3em;
     text-align: center;
+}
+
+header > p{
+    align-self: center;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+div#englishVer > nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 div#englishVer > main > section{
@@ -115,6 +123,7 @@ div#englishVer > main > section{
 }
 div#romanianVer{
     background-image: linear-gradient(to right, var(--cor4), var(--cor5));
+    min-height: 100vh;
 }
 
 div#romanianVer > main > section{
