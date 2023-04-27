@@ -73,6 +73,7 @@ div#romanian > div > img{
 #englishVer{
     background-color: var(--cor1);
     min-height: 100vh;
+    margin-bottom: 0px;
 }
 
 div#englishVer > header{
@@ -93,6 +94,8 @@ div#romanianVer > header{
     flex-direction: column;
 }
 
+
+/* header decoration */
 header > h1{
     align-self: center;
     font-size: 3em;
@@ -105,6 +108,8 @@ header > p{
     text-align: center;
 }
 
+
+/* english colors decoration*/
 div#englishVer > nav > ul{
     display: flex;
     flex-direction: row;
@@ -121,6 +126,9 @@ div#englishVer > main > section{
     margin-top: 10px;
     border-radius: 5px 10px;
 }
+
+
+/* romanian colors decoration */
 div#romanianVer{
     background-image: linear-gradient(to right, var(--cor4), var(--cor5));
     min-height: 100vh;
@@ -137,6 +145,8 @@ div#romanianVer > main > section{
     border-radius: 5px 10px;
 }
 
+
+/* DOM main and text decoration*/
 main > section > h2{
     font-size: 2em;
     font-weight: 500;
@@ -156,6 +166,7 @@ main > section > p{
     margin-bottom: 10px;
 }
 
+/* audio decoration */
 audio{
     box-shadow: 5px 5px 10px #0007;
     border-radius: 100px;
@@ -163,6 +174,56 @@ audio{
     margin-bottom: 20px;
 }
 
+
+/* link decoration */
+div#englishVer > main > section > p > a:visited{
+    color: var(--cor0);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor0);
+}
+
+div#englishVer > main > section > p > a{
+    color: var(--cor0);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor0);
+}
+
+div#romanianVer > main > section > p > a{
+    color: var(--cor3);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor3);
+}
+
+div#romanianVer > main > section > p > a:visited{
+    color: var(--cor3);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor3);
+}
+
+
+/* span decoration */
+div#englishVer > main > section > p > span{
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+div#englishVer > main > section > h3 > span{
+    color: var(--cor0);
+    text-decoration: underline;
+}
+
+div#romanianVer > main > section > p > span {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+div#romanianVer > main > section > h3 > span {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+
+/* section with background */
 section#sorry{
     background-image: url(../images/sorry.jpg);
     background-color: var(--white);
@@ -171,16 +232,6 @@ section#sorry{
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
-}
-
-div#englishVer > main > section > p > span{
-    color: var(--cor0);
-    text-decoration: underline;
-}
-
-div#romanianVer > main > section > p > span {
-    color: var(--cor3);
-    text-decoration: underline;
 }
 
 section#hole{
@@ -193,16 +244,14 @@ section#hole{
     height: 300px;
 }
 
-figure.pic-sample{
-    width: 80vw;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-figure.pic-sample > img{
-    width: 60vw;
+section#miss-you{
+    background-image: url(../images/miss-you.jpg);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
 }
 
 section#heart{
@@ -215,11 +264,31 @@ section#heart{
     height: 300px;
 }
 
+section.pointer{
+    cursor: pointer;
+}
+
+
+/* pic samples */
+figure.pic-sample{
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figure.pic-sample > img{
+    width: 60vw;
+}
+
+/* strong */
 strong{
     font-weight: 500;
     font-size: 1.15em;
 }
 
+/* footer */
 div#englishVer > footer{
     background-color: var(--cor0);
     color: var(--cor2);
@@ -235,8 +304,7 @@ footer > h2{
     max-width: 80vw;
     margin: auto;
     text-align: center;
-    margin-bottom: 20px;
-
+    padding-bottom: 20px;
 }
 
 footer > p{
