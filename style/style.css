@@ -49,6 +49,8 @@ div#english > div{
 div#english > div > img{
     display: block;
     margin: auto;
+    width: 300px;
+    height: 150px;
 }
 
 div#language > div#romanian{    
@@ -68,6 +70,8 @@ div#romanian > div{
 div#romanian > div > img{
     display: block;
     margin: auto;
+    width: 300px;
+    height: 150px;
 }
 
 #englishVer{
@@ -112,8 +116,8 @@ header > p{
 /* english colors decoration*/
 div#englishVer > nav > ul{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 
 div#englishVer > main > section{
@@ -166,6 +170,40 @@ main > section > p{
     margin-bottom: 10px;
 }
 
+main > section.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > section.index > div{
+    background-color: #ffffffe0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0008;
+    justify-content: center;
+}
+
+main > section.index > div > h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main > section.index > div > h3{
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main > section.index > div > p{
+    font-size: 1.15em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
 /* audio decoration */
 audio{
     box-shadow: 5px 5px 10px #0007;
@@ -176,28 +214,52 @@ audio{
 
 
 /* link decoration */
-div#englishVer > main > section > p > a:visited{
+div#englishVer > main > section > div > p > a:visited{
     color: var(--cor0);
     text-decoration: none;
     text-shadow: 5px 5px 10px var(--cor0);
 }
 
-div#englishVer > main > section > p > a{
+div#englishVer > main > section > div > p > a{
     color: var(--cor0);
     text-decoration: none;
     text-shadow: 5px 5px 10px var(--cor0);
 }
 
-div#romanianVer > main > section > p > a{
+div#romanianVer > main > section > div > p > a{
     color: var(--cor3);
     text-decoration: none;
     text-shadow: 5px 5px 10px var(--cor3);
 }
 
-div#romanianVer > main > section > p > a:visited{
+div#romanianVer > main > section > div > p > a:visited{
     color: var(--cor3);
     text-decoration: none;
     text-shadow: 5px 5px 10px var(--cor3);
+}
+
+div#englishVer > footer > p > a:visited{
+    color: var(--cor2);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor1);
+}
+
+div#englishVer > footer > p > a{
+    color: var(--cor2);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor1);
+}
+
+div#romanianVer > footer > p > a{
+    color: var(--white);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor4);
+}
+
+div#romanianVer > footer > p > a:visited{
+    color: var(--white);
+    text-decoration: none;
+    text-shadow: 5px 5px 10px var(--cor4);
 }
 
 
