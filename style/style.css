@@ -392,7 +392,6 @@ div#romanianVer > main > section > h3 > span {
     text-decoration: underline;
 }
 
-
 /* Ordered list */
 ol{
     margin-left: 10px;
@@ -433,11 +432,21 @@ section#miss-you{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    min-height: 500px;
 }
 
 section#heart{
     background-image: url(../images/heart.jpg);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
+section#big-heart{
+    background-image: url(../images/big-heart.jpg);
     background-color: var(--white);
     background-size: auto;
     background-attachment: fixed;
