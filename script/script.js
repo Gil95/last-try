@@ -20,12 +20,6 @@ function missYouEnglish(){
 }
 
 // menu hamburguinho
-function openMenu(){
-    naveg.style.display = 'block'
-}
-function closeMenu(){
-    naveg.style.display = 'none'
-}
 function clickMenu(){
     if (naveg.style.display == 'block'){
         naveg.style.display = 'none'
