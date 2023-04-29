@@ -115,6 +115,8 @@ header > p{
 
 /* nav decoration*/
 nav {
+    position: sticky;
+    top: 10px;
     display: block;
 }
 
@@ -138,9 +140,17 @@ div#englishVer > nav > span#burger:hover{
     background-color: var(--cor2);
 }
 
+div#romanianVer > nav > span#burger{
+    background-color: var(--cor3);
+}
+
+div#romanianVer > nav > span#burger:hover{
+    background-color: var(--white);
+}
+
 nav > span#burger:hover{
     border-radius: 5px;
-    transition-duration: 200ms;
+    transition-duration: 500ms;
 }
 
 nav > div#naveg {
@@ -151,27 +161,33 @@ nav > div#naveg {
 
 nav > div > ul {
     text-decoration: none;
-    background-color: var(--cor0);
-    color: var(--cor1);
-    transition-duration: 200ms;
+    transition-duration: 500ms;
     border-radius: 5px;
-    border: var(--cor2) solid 1px;
     padding: 5px;
     margin: auto;
     width: calc(95vw - 30px);
     margin-top: 2px;
 }
 
+div#englishVer > nav > div > ul{
+    background-color: var(--cor0);
+    color: var(--cor1);
+    border: var(--cor2) solid 1px;
+}
+
+div#romanianVer > nav > div > ul{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border: var(--white) solid 1px;
+}
+
 nav > div > ul > li > a{
     display: block;
     padding: 2px 10px;
-    background-color: var(--cor0);
     font: normal normal 1.2em var(--fonte1);
     text-decoration: none;
-    color: var(--cor1);
     transition-duration: 200ms;
     border-radius: 5px;
-    border-color: var(--cor1);
     border-style: solid;
     border-width: 1px;
     margin-top: 5px;
@@ -179,11 +195,37 @@ nav > div > ul > li > a{
     text-align: center;
 }
 
-nav > div > ul > li:nth-child(1) > a{
-    color: var(--cor2);
-
+div#englishVer > nav > div > ul > li > a{
+    background-color: var(--cor0);
+    color: var(--cor1);
+    border-color: var(--cor1);
 }
 
+div#romanianVer > nav > div > ul > li > a{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border-color: var(--cor5);
+}
+
+div#englishVer > nav > div > ul > li > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor0);
+    border-color: var(--cor1);
+}
+
+div#romanianVer > nav > div > ul > li > a:hover{
+    background-color: var(--cor4);
+    color: var(--cor3);
+    border-color: var(--cor5);
+}
+
+div#englishVer > nav > div > ul > li:nth-child(1) > a{
+    color: var(--cor2);
+}
+
+div#romanianVer > nav > div > ul > li:nth-child(1) > a{
+    color: var(--white);
+}
 
 /* english colors decoration*/
 div#englishVer > main > section{
@@ -351,6 +393,18 @@ div#romanianVer > main > section > h3 > span {
 }
 
 
+/* Ordered list */
+ol{
+    margin-left: 10px;
+    text-indent: 5px;
+    font: normal normal 1.2em var(--font1);
+}
+
+ol > li{
+    margin-top: 20px;
+    
+}
+
 /* section with background */
 section#sorry{
     background-image: url(../images/sorry.jpg);
@@ -384,6 +438,16 @@ section#miss-you{
 
 section#heart{
     background-image: url(../images/heart.jpg);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
+section#lost{
+    background-image: url(../images/lost.jpg);
     background-color: var(--white);
     background-size: auto;
     background-attachment: fixed;
