@@ -466,8 +466,8 @@ section#lost{
     min-height: 500px;
 }
 
-section#sorry{
-    background-image: url(../images/sorry.jpg);
+section#translate{
+    background-image: url(../images/translate.jpg);
     background-color: var(--white);
     background-size: auto;
     background-attachment: fixed;
@@ -478,6 +478,13 @@ section#sorry{
 
 section.pointer{
     cursor: pointer;
+}
+
+
+/* parafrafos de */
+div.paragrafo{
+    display: flex;
+    flex-direction: row;
 }
 
 
