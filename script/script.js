@@ -15,6 +15,10 @@ function missYouEnglish(){
     window.open("miss-you.html", '_self')
 }
 
+function translation(){
+    window.open("translation.html", '_self')
+}
+
 //links por JS em Romeno
 function romanianVersion(){
     window.open("index-romanesc.html", '_self')

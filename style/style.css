@@ -487,6 +487,14 @@ div.paragrafo{
     flex-direction: row;
 }
 
+div.portuguese{
+    text-align: end;
+    padding: 10px;
+}
+
+div.english, div.romanesc > p{
+    padding: 10px;
+}
 
 /* pic samples */
 figure.pic-sample{
