@@ -466,6 +466,16 @@ section#lost{
     min-height: 500px;
 }
 
+section#sorry{
+    background-image: url(../images/sorry.jpg);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
 section.pointer{
     cursor: pointer;
 }
