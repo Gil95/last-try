@@ -52,4 +52,4 @@ function mudouTamanho(){
     }
 }
 
-window.alert("I'm really mad at you")
+window.alert('I am really mad at you')
