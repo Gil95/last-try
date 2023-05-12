@@ -51,3 +51,5 @@ function mudouTamanho(){
         naveg.style.display = 'none'
     }
 }
+
+window.alert("I'm really mad at you")
