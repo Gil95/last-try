@@ -51,5 +51,3 @@ function mudouTamanho(){
         naveg.style.display = 'none'
     }
 }
-
-window.alert('I am really sad at you')
