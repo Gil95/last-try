@@ -483,17 +483,38 @@ section.pointer{
 
 /* parafrafos de */
 div.paragrafo{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template: 
+    "titleO titleT" 80px
+    /1fr 1fr;
+    grid-auto-rows: 60px;
 }
 
-div.portuguese{
-    text-align: end;
-    padding: 10px;
+.titleOriginal{
+    grid-area: titleO;
+    font-size: 1.2em;
+    text-align: right;
 }
 
-div.english, div.romanesc > p{
-    padding: 10px;
+.titleTranslate{
+    grid-area: titleT;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.lineO{
+    text-align: right;
+    font-size: 1em;
+}
+
+.lineT{
+    text-align: left;
+    font-size: 1em;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
 }
 
 /* pic samples */

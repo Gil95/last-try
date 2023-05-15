@@ -36,6 +36,10 @@ function mieDorDeTineRomana(){
     window.open("mi-e-dor-de-tine.html", '_self')
 }
 
+function traducere(){
+    window.open("traducere.html", '_self')
+}
+
 // menu hamburguinho
 function clickMenu(){
     if (naveg.style.display == 'block'){
