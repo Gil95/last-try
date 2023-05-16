@@ -426,6 +426,16 @@ section#hole{
     min-height: 500px;
 }
 
+section#haha{
+    background-image: url(../images/haha.jpg);
+    backgroung-color: var(--white);
+    background-size:auto;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
 section#miss-you{
     background-image: url(../images/miss-you.jpg);
     background-color: var(--white);
