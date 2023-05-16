@@ -528,6 +528,7 @@ div.paragrafo{
     position: sticky;
     top: 10px;
     max-width: 300px;
+    max-height: 40vh;
     flex-grow: 1;
     margin: auto;
 }
