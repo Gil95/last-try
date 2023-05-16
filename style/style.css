@@ -536,10 +536,12 @@ div.paragrafo{
 
 .original{
     flex-grow: 1;
+    margin-right: 10px;
 }
 
 .translate{
     flex-grow: 1;
+    margin-left: 10px;
 }
 
 .bombeiro{
