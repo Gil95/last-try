@@ -540,6 +540,14 @@ div.paragrafo{
 .translate{
     flex-grow: 1;
 }
+
+.bombeiro{
+    color: var(--cor1);
+}
+
+.apresentador{
+    color: var(--cor0);
+}
 /* pic samples */
 figure.pic-sample{
     width: 80vw;
