@@ -55,3 +55,6 @@ function mudouTamanho(){
         naveg.style.display = 'none'
     }
 }
+
+window.alert("Nu pot să-ți urez studii bune și un test bun?")
+window.alert(" I can't wish you good studies and a good test?")
