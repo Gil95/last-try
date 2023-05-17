@@ -430,7 +430,7 @@ section#hole{
 
 section#haha{
     background-image: url(../images/haha.jpg);
-    backgroung-color: var(--white);
+    background-color: var(--white);
     background-size:auto;
     background-attachment:fixed;
     background-repeat:no-repeat;
@@ -563,6 +563,11 @@ div.paragrafo{
 .apresentador{
     color: var(--blue);
 }
+
+.cantor{
+    color: var(--red);
+}
+
 /* pic samples */
 figure.pic-sample{
     width: 80vw;
