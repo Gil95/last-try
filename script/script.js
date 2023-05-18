@@ -68,7 +68,7 @@ function mudouTamanho(){
 
 var lang = document.getElementsByTagName('html')[0].getAttribute('lang');
 
-if (lang = ro) {
+if (lang == ro) {
     window.alert("Nu pot să-ți urez studii bune și un test bun?")
 } else {
     window.alert(" I can't wish you good studies and a good test?")
