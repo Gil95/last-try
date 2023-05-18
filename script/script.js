@@ -66,7 +66,7 @@ function mudouTamanho(){
 
 // lang alert 
 
-var lang = document.getElementsByTagName('html')[0].getAttribute('lang');
+var lang = document.getElementById("linguagem").value;
 
 if (lang == ro) {
     window.alert("Nu pot să-ți urez studii bune și un test bun?")
