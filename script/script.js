@@ -19,6 +19,10 @@ function translation(){
     window.open("translation.html", '_self')
 }
 
+function studying(){
+    window.open("studying.html", '_self')
+}
+
 //links por JS em Romeno
 function romanianVersion(){
     window.open("index-romanesc.html", '_self')
@@ -38,6 +42,10 @@ function mieDorDeTineRomana(){
 
 function traducere(){
     window.open("traducere.html", '_self')
+}
+
+function studiu(){
+    window.open("studiu.html", '_self')
 }
 
 // menu hamburguinho
