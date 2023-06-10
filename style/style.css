@@ -26,6 +26,7 @@ body::-webkit-scrollbar{
     --white: #fff;
     --red: #ff0000;
     --blue: #0000ff;
+    --pink: #ff6666;
     --font1: 'Nunito', arial, sans-serif;
 }
 
@@ -594,6 +595,18 @@ div.paragrafo{
 
 .cantor{
     color: var(--red);
+}
+
+.ladrao1{
+    color: var(--blue);
+}
+
+.ladrao2{
+    color: var(--red);
+}
+
+.mulher{
+    color: var(--pink);
 }
 
 /* pic samples */
