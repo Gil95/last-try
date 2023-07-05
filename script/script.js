@@ -67,9 +67,3 @@ function mudouTamanho(){
 // lang alert 
 
 var lang = document.getElementsByTagName('html')[0].getAttribute('lang');
-
-if (lang == "ro") {
-
-} else if (lang =="en") {
-
-}
