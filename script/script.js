@@ -69,9 +69,7 @@ function mudouTamanho(){
 var lang = document.getElementsByTagName('html')[0].getAttribute('lang');
 
 if (lang == "ro") {
-    window.alert("Nu am vrut sa te deranjez mergand din nou dupa tine, dar am vrut sa ma bucur de ceva timp alaturi de tine, tocmai pentru ca astazi am timp de petrecut cu tine.")
-    window.alert("Nu pot să-ți urez studii bune și un test bun?")
+
 } else if (lang =="en") {
-    window.alert("I didn't want to bother him by going after you again, but I wanted to enjoy some time with you, precisely because today I have time to spend with you.")
-    window.alert(" I can't wish you good studies and a good test?")
+
 }
