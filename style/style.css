@@ -488,6 +488,16 @@ section#festa{
     min-height: 500px;
 }
 
+section#bolo{
+    background-image: url(../images/bolo.png);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
 section#big-heart{
     background-image: url(../images/big-heart.jpg);
     background-color: var(--white);
