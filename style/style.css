@@ -468,6 +468,26 @@ section#heart{
     min-height: 500px;
 }
 
+section#balao{
+    background-image: url(../images/balao.png);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
+section#festa{
+    background-image: url(../images/festa.png);
+    background-color: var(--white);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+
 section#big-heart{
     background-image: url(../images/big-heart.jpg);
     background-color: var(--white);
