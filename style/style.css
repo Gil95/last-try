@@ -471,7 +471,7 @@ section#heart{
 section#balao{
     background-image: url(../images/balao.png);
     background-color: var(--white);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -481,7 +481,7 @@ section#balao{
 section#festa{
     background-image: url(../images/festa.png);
     background-color: var(--white);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -491,7 +491,7 @@ section#festa{
 section#bolo{
     background-image: url(../images/bolo.png);
     background-color: var(--white);
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -662,11 +662,13 @@ strong{
 div#englishVer > footer{
     background-color: var(--cor0);
     color: var(--cor2);
+    margin-top: 10px;
 }
 
 div#romanianVer > footer{
     background-color: var(--cor5);
     color: var(--white);
+    margin-top: 10px;
 }
 
 footer{
@@ -696,4 +698,8 @@ footer > a > img{
     display: block;
     margin: auto;
     padding-bottom: 20px;
+}
+
+footer strong{
+    font-weight: 900;
 }

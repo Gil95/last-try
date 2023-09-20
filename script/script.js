@@ -23,6 +23,10 @@ function studying(){
     window.open("studying.html", '_self')
 }
 
+function surprise(){
+    window.open("surprise.html", '_self')
+}
+
 //links por JS em Romeno
 function romanianVersion(){
     window.open("index-romanesc.html", '_self')
@@ -46,6 +50,10 @@ function traducere(){
 
 function studiu(){
     window.open("studiu.html", '_self')
+}
+
+function surprinde(){
+    window.open("surprinde.html", '_self')
 }
 
 // menu hamburguinho
